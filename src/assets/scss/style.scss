@@ -1,0 +1,110 @@
+.header-main {
+  .jij-section {
+    background-image: url(../banner-img.png);
+    background-size: cover;
+    height: 520px;
+    .jij-main {
+      .jij-content {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.container {
+  margin: 0 auto;
+  position: relative;
+  left: 10px;
+}
+
+.hamburger-menu {
+  float: right;
+  border: 0px;
+  // margin: 15px 15px 0px 0px;
+  padding: 5px 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: rgb(227, 177, 12);
+  color: black;
+  border-radius: 25px;
+}
+
+.dropdown {
+  margin-top: -20px;
+  height: 0px;
+  background-color: rgb(227, 177, 12);
+  transition: height 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.dropdown-after {
+  margin-top: 0px;
+  height: 100%;
+  //height: calc(100vh - 50px);
+  transition: height 0.2s ease;
+}
+
+.navlist {
+  list-style: none;
+}
+
+.navlistitem {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+}
+
+.navlistitem a {
+  color: #ffffff;
+}
+.navbar {
+  height: 50px;
+  background-color: Lightgrey;
+  display: flex;
+  border-radius: 0px;
+}
+
+.workTitle {
+  color: white;
+}
+
+.btn-bot {
+  position: absolute;
+  margin-left: -50px;
+  left: 50%;
+  width: 100px;
+  bottom: 0px;
+}
+
+.Center {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  padding: 2%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.cmnButton {
+  background-color: rgb(227, 177, 12);
+  border-color: rgb(227, 177, 12);
+  border: 0px;
+  font-weight: bold;
+}
+
+.titleYellow {
+  color: rgb(227, 177, 12);
+  font-size :1.5rem;
+}
+.casestudy{
+  font-size: 2rem;
+}
+.casestudyh6{
+  font-size: 1.3rem;
+}
